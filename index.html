@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E. Sathyanesar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>E.Sathyanesar</h1>
+        <p>Computer Science Engineering Student</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <br>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>From Palavakkam, Chennai, currently pursuing a Bachelor of Engineering in Computer Science at Agni College of Technology. I have a strong interest in problem-solving and technology, with a focus on building a solid foundation in computer science.</p>
+                
+                <br>
+                <p><strong>Strength:</strong> Logical thinking and analytical problem-solving.</p>
+            </div>
+            <img src="images.jpg" alt="E. Sathyanesar" class="profile-pic">
+        </div>
+    </section>
+
+    <br>
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education-box">
+                <h3>Bachelor of Engineering - Computer Science</h3>
+                <p>Agni College of Technology, Chennai</p>
+                <p>2023 - Present</p>
+            </div>
+            <div class="education-box">
+                <h3>Higher Secondary Education</h3>
+                <p>Brotherhood Matric Hr. Sec. School, Chennai</p>
+                <p>2009 - 2023</p>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <img src="html.png" alt="HTML">
+                <p>HTML & CSS</p>
+            </div>
+            <div class="skill">
+                <img src="css.png" alt="CSS">
+                <p>CSS</p>
+            </div>
+            
+        </div>
+
+        <h2>Courses</h2>
+        <ul>
+            <div class="skill">
+                <img src="skillrack.jpg" alt="Skillrack">
+                <li>Data Structures in C (Skillrack)</li>
+            </div>
+        </ul>
+    </section>
+
+    <br>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:nesarsathya@gmail.com">nesarsathya@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sathya-nesar-36b540335" target="_blank">Profile</a></p>
+    </section>
+
+    <br>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 E. Sathyanesar. All Rights Reserved.</p>
+    </footer>
+
+
+    <!-- JavaScript for Mobile Menu -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const navMenu = document.querySelector("nav ul");
+
+            menuToggle.addEventListener("click", function() {
+                navMenu.classList.toggle("nav-active");
+            });
+        });
+    </script>
+
+</body>
+</html>
