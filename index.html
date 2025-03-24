@@ -6,37 +6,36 @@
     <title>E. Sathyanesar - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
     <!-- Header Section -->
     <header>
-        <h1>E.Sathyanesar</h1>
-        <p>Computer Science Engineering Student</p>
+        <div class="container">
+            <h1>E.Sathyanesar</h1>
+            <p>Computer Science Engineering Student</p>
+        </div>
     </header>
 
     <!-- Navigation -->
     <nav>
-        
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            
-
         </ul>
     </nav>
 
     <br>
     <!-- About Section -->
-    <section id="about">
+    <section id="about" class="container">
         <h2>About Me</h2>
         <div class="about-container">
             <div class="about-text">
                 <p>From Palavakkam, Chennai, currently pursuing a Bachelor of Engineering in Computer Science at Agni College of Technology. I have a strong interest in problem-solving and technology, with a focus on building a solid foundation in computer science.</p>
-                
                 <br>
                 <p><strong>Strength:</strong> Logical thinking and analytical problem-solving.</p>
             </div>
@@ -45,8 +44,9 @@
     </section>
 
     <br>
+
     <!-- Education Section -->
-    <section id="education">
+    <section id="education" class="container">
         <h2>Education</h2>
         <div class="education-container">
             <div class="education-box">
@@ -63,8 +63,9 @@
     </section>
 
     <br>
+
     <!-- Skills Section -->
-    <section id="skills">
+    <section id="skills" class="container">
         <h2>Skills</h2>
         <div class="skills-container">
             <div class="skill">
@@ -75,51 +76,49 @@
                 <img src="css.png" alt="CSS">
                 <p>CSS</p>
             </div>
-            
         </div>
     </section>
-<br>
+
+    <br>
+
     <!-- Project Section -->
-    <section id="projects">
+    <section id="projects" class="container">
         <h2>Projects</h2>
         <div class="project-container">
             <div class="project-card">
                 <h3>Train Reservation System</h3>
-                <p>A mini project built using Java, MySQL, and NetBeans. It allows users to view available trains, book tickets, and display ticket details dynamically.</p>
-                <a href="https://github.com/sathya3103/TrainReservationSystem" target="_blank">View Project (Demo/Code)</a>
+                <p>A simple train reservation system built with Java, MySQL, and NetBeans IDE.</p>
+                <a href="https://github.com/sathya3103/TrainReservationSystem" target="_blank">
+                    <i class="fab fa-github"></i> View on GitHub
+                </a>
             </div>
-    
-            
+        </div>
     </section>
-    
 
     <br>
+    
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="container">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:nesarsathya@gmail.com">nesarsathya@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/sathya-nesar-36b540335" target="_blank">Profile</a></p>
+        <p>Connect with me:</p>
+        <div class="social-bar">
+            <a href="https://github.com/sathya3103" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sathya-nesar-36b540335" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/_sathyeah/" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
     </section>
-
-    <br>
 
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 E. Sathyanesar. All Rights Reserved.</p>
     </footer>
-
-
-    <!-- JavaScript for Mobile Menu -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const menuToggle = document.querySelector(".menu-toggle");
-            const navMenu = document.querySelector("nav ul");
-
-            menuToggle.addEventListener("click", function() {
-                navMenu.classList.toggle("nav-active");
-            });
-        });
-    </script>
 
 </body>
 </html>
